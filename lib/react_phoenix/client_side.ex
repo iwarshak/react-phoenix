@@ -9,7 +9,7 @@ defmodule ReactPhoenix.ClientSide do
   switching over to a different system.
   """
 
-  import Phoenix.HTML.Tag
+  import PhoenixHTMLHelpers.Tag
 
   @doc """
   Generate a div containing the named React component with no props or options.

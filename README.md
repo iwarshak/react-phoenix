@@ -161,7 +161,7 @@ def view do
 
     import Phoenix.Controller, only: [get_flash: 1, get_flash: 2, view_module: 1]
 
-    use Phoenix.HTML
+    use PhoenixHTMLHelpers
 
     import MyPhoenixApp.ErrorHelpers
     import MyPhoenixApp.Gettext
